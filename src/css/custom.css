@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../images/banner1.png");
+  background-size: cover;
+  background-position: center;
+
+}
+/* 
+.tras{
+  /* background-color: transparent; */
+/* } */ 
+.a-title {
+  position: absolute;
+  color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: conic-gradient(#ed0101, blue);
+  pointer-events: none;
+  mix-blend-mode: difference;
+  filter: drop-shadow(2px 4px 6px black);
+  font-size: 5vw;
+  z-index: 20;
+  text-align: center;
+}
+
+.a-second-title {
+  position: relative;
+  text-align: center;
+  margin-top: 5vh;
+  font-style: italic;
+  font-family: corben, serif;
+  pointer-events: none;
+  -webkit-text-stroke: 1.3px white;
+  letter-spacing: 1.125px;
+  font-size: 35px;
+  font-weight: 400;
+  mix-blend-mode: color-dodge;
+  z-index: 21;
+  text-align: center;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: auto;
+  /* z-index: 1; */
+  width: 100%;
+  height: 100%;
+  z-index: 19;
+  /* background: none; */
+  /* display: block; */
+  /* background-color: transparent;
+   */
+}
+/* .title {
+  font-family: 'Audiowide', sans-serif;
+  font-size: 5rem;
+  text-align: center;
+  color: #fff;
+
+  text-shadow:
+    0 0 10px rgba(255, 255, 255, 0.5),
+    0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 30px rgba(255, 255, 255, 0.5);
+} */
+
+.subtitle {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 3rem;
+  color: #ffffff;
+  margin-top: 20px;
+}
+.header-text{
+  color: #37e2d6;
+}
+
+
+body {
+  /* display: grid; */
+  place-content: center;
+  min-height: 100dvh;
+  color: #fff;
+  /* background-color: #121212; */
+  font-family: "Noto Sans", sans-serif;
+}
+
+
+/* h1 {
+  position: relative;
+  font-family: "Ethnocentric";
+  font-size: clamp(64px, 9.25vw, 94px);
+  line-height: 1.15;
+  text-align: center;
+  color: transparent;
+  background: transparent;
+  transition: color 0.55s;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  user-select: none;
+  cursor: pointer;
+} */
+/* 
+h1:hover {
+  color: unset;
+  filter: drop-shadow(0 0 20px rgba(20, 57, 221, 0.5)) hue-rotate(120deg);
+}
+
+h1::before, h1::after {
+  content: attr(aria-label);
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+h1::before {
+  background: linear-gradient(75deg, blue, violet);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  clip-path: polygon(100% 0, -20% 0, 100% 80%);
+  transition: color 0.25s, top 0.25s, left 0.25s, opacity 0.25s;
+}
+
+h1:hover::before {
+  top: -65%;
+  left: 48px;
+  opacity: 0;
+}
+
+h1::after {
+  background: linear-gradient(45deg, blue, violet);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  clip-path: polygon(0 100%, -20% 0, 100% 95%);
+  transition: color 0.25s, top 0.25s, left 0.25s, opacity 0.25s;
+}
+
+h1:hover::after {
+  top: 65%;
+  left: -32px;
+  opacity: 0;
+}
+ */
+

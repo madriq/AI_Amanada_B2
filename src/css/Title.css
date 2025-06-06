@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+/* body {
+	background-color: #010;
+} */
+
+.title {
+	font-family: "Cairo";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	/* flex-direction: column; */
+	/* align-items: center; */
+	justify-content: center;
+    margin-top: -190px;
+	height: 100vh;
+	letter-spacing: 1px;
+	line-height:2;
+    text-shadow:
+    0 0 9px rgba(243, 243, 243, 0.205),
+    /* 0 0 20px rgba(255, 255, 255, 0.301), */
+    0px 0px 1px rgba(255, 255, 255, 0.205);
+}
+
+
+
+h1 {
+	background-image: url(https:\/\/media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	background-clip: text; 
+	text-transform: uppercase;
+	font-size: 120px;
+	margin: 10px 0;
+}
+
+
+.background1{
+	color: #ffffff3d;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	background-clip: text; 
+	font-size: 60px;
+	margin: 10px 0;
+	text-shadow:
+    0 0 9px rgba(243, 243, 243, 0.692),
+    /* 0 0 20px rgba(255, 255, 255, 0.301), */
+    0px 0px 1px rgba(255, 255, 255, 0.205);
+}
+/* styling my button */
+
