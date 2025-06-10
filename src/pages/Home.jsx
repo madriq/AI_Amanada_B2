@@ -6,6 +6,7 @@ import '../css/Title.css'
 // import Title from '../components/Title';
 import Backbanner from "../images/banner1.png"
 import CanvasAnimation from '../components/CanvasAnimation';
+import PeopleTransformer from '../components/PeopleTransformer';
 import React, { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 
@@ -53,6 +54,9 @@ const Home = () => {
 				<h5 className=' absolute bottom-0 text-2xl text-white z-30'>
 				Charlitron: Donde la Inteligencia se convierte en Realidad
 				</h5>
+			</div>
+			<div className="mt-8">
+				<PeopleTransformer />
 			</div>
 			{/* <div className=' absolute top-0'>
 			<Title/>
